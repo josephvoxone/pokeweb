@@ -16,6 +16,7 @@ const Card = styled.div`
     &:hover {
         margin-top: -10px;
         transition: 0.5s;
+        border-bottom: 3px solid #f44336;
 
         div.del {
             visibility: visible;
@@ -76,7 +77,7 @@ const Delete = styled.div`
     border-radius: 10px 10px 0 0;
     font-weight: 500;
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     text-transform: lowercase;
     line-height: 20px;
