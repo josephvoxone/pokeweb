@@ -85,6 +85,11 @@ const Delete = styled.div`
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+
+    @media (max-width: 680px) {
+        visibility: visible;
+        opacity: 1;
+    }
 `;
 
 const CardOwned = (props) => {

@@ -26,7 +26,13 @@ const Header = () => {
             justify-content: center;
             align-content: center;
             display: grid;
-        }    
+            padding: 10px;
+
+            img{
+                max-width: 150px !important;
+                width: 150px !important;
+            }
+        }
 
         img{
             max-width: 260px;

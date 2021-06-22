@@ -208,7 +208,11 @@ const Details = () => {
         max-width: 580px;
         border-top: 5px solid #ffcb05;
         border-bottom: 5px solid #ffcb05;
-
+        
+        @media (max-width: 680px) {
+            padding: 20px;
+            padding-top: 140px;
+        }
     `;
 
     const RowPoke = styled.div`      
@@ -233,6 +237,17 @@ const Details = () => {
         height: 300px;
         transition: 0.5s;
         filter: sepia(1);
+
+        @media (max-width: 680px) {
+            padding: 40px 0;
+            width: 200px;
+            height: 200px;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
         
         img{
             transition: 0.5s;
@@ -353,7 +368,8 @@ const Details = () => {
         }
     `
 
-    const onClickCatch = async () => {
+    const onClickCatch = async (e) => {
+        e.preventDefault()
         const isCatched = Boolean(Math.round(Math.random()))
         // const isCatched = false
         if (isCatched) {

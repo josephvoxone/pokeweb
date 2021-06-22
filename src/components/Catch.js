@@ -19,6 +19,11 @@ const Catch = (props) => {
         margin-top: 0;
         font-weight: 400;
         color: #f1f1f1;
+
+        @media (max-width: 680px) {
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
     `;
 
     const Form = styled.form`
