@@ -71,8 +71,6 @@ const Catch = (props) => {
         font-size: 10pt;
     `;
 
-
-
     const OnClickSubmit = (e) => {
         e.preventDefault()
 
@@ -83,7 +81,7 @@ const Catch = (props) => {
         }
 
         const find = getPokemon.some((pokemon) => {
-            return pokemon.nickname === e.target.nickname.value.trim()
+            return pokemon.nickname.toLowerCase() === e.target.nickname.value.trim().toLowerCase()
         })
 
         setValid(!find)
