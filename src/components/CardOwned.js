@@ -13,6 +13,10 @@ const Card = styled.div`
     align-items: center;
     transition: 0.5s;
 
+    @media (max-width: 680px) {
+        border-bottom: 3px solid #f44336;
+    }
+
     &:hover {
         margin-top: -10px;
         transition: 0.5s;
