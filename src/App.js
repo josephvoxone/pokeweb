@@ -4,12 +4,13 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+// import { hot } from 'react-hot-loader/root'; --Untuk Webpack
 
 // Halaman
 import PokeList from './pages/PokeList';
 import Details from './pages/Details';
 import MyList from './pages/MyList';
-import React,{ Suspense } from 'react';
+import React, { Suspense } from 'react';
 
 // Component
 import Header from './components/Header';
@@ -41,4 +42,5 @@ function App() {
   );
 }
 
+// export default hot(App); --Untuk Webpack
 export default App;
