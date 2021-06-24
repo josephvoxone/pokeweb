@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Performance Test
+You can check performance test https://pokeweb-three.vercel.app :
+- LightHouse - Chrome DevTools (PWA Ready)
+- GT-Metrix - https://gtmetrix.com
+- Pagespeed - https://developers.google.com/speed/pagespeed/insights/
+
+# Responsif Check
+- Responsinator - https://www.responsinator.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
