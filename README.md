@@ -8,7 +8,7 @@ You can check performance test https://pokeweb-three.vercel.app :
 - GT-Metrix - https://gtmetrix.com
 - Pagespeed - https://developers.google.com/speed/pagespeed/insights/
 
-# Responsif Check
+# Responsive Check
 - Responsinator - https://www.responsinator.com/
 
 ## Available Scripts
