@@ -33,7 +33,7 @@ const Footer = () => {
 
     return (
         <FooterComp>
-            <img src={Logoku} width='200' height='79'  height='auto' alt="logoku"></img>
+            <img src={Logoku} width='200' height='79' alt="logoku"></img>
             <Credit>Create with Love and Passion - Project Assignment Tokopedia</Credit>
         </FooterComp>
     )
