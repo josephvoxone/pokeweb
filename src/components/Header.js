@@ -83,7 +83,7 @@ const Header = () => {
     return (
         <HeaderComp>
             <a href="/">
-                <img src={LogoPokemon} width='260' alt="logo"></img>
+                <img src={LogoPokemon} width='150' height='55' alt="logo"></img>
             </a>
             <ListMenu>
                 <Menu>

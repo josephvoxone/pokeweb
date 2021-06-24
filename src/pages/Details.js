@@ -498,7 +498,7 @@ const Details = () => {
                         <img width='200' height='200' src={SvgImage} alt={data.pokemon.name} />
                     </ImgFeatured>
                     <Pokeball onClick={onClickCatch} className="btnPokeball">
-                        <img src={LogoPokeball} alt='pokeball'></img>
+                        <img src={LogoPokeball} width='68' height='68' alt='pokeball'></img>
                     </Pokeball>
                     <PokeTip className="poketips">Click to Catch</PokeTip>
                     <RowInfo>
