@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test : Footer 1`] = `
+<div>
+  <div
+    class="css-8dspe8"
+  >
+    <img
+      alt="logoku"
+      height="auto"
+      src="joseph.svg"
+      width="200"
+    />
+    <p
+      class="css-1tlrfr4"
+    >
+      Create with Love and Passion - Project Assignment Tokopedia
+    </p>
+  </div>
+</div>
+`;

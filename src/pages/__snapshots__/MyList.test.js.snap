@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test : My List Page 1`] = `
+<div>
+  <div
+    class="css-17y4c5w"
+  >
+    <h1
+      class="css-1wp9jp3"
+    >
+      Oops!
+    </h1>
+    <h4
+      class="css-3606z2"
+    >
+      seems you doesn't have any pokemon.
+    </h4>
+  </div>
+</div>
+`;

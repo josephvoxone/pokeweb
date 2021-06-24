@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test : Header 1`] = `
+<div>
+  <div
+    class="css-ddlie1"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="logo"
+        src="logo.svg"
+        width="260"
+      />
+    </a>
+    <div
+      class="css-e5d1m4"
+    >
+      <div
+        class="css-16fgeqq"
+      >
+        <a
+          aria-current="page"
+          class="active"
+          href="/"
+        >
+          Pokemon List
+        </a>
+      </div>
+      <div
+        class="css-16fgeqq"
+      >
+        <a
+          href="/mylist"
+        >
+          My Pokemon
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

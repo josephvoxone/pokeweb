@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test : Card Owned Data 1`] = `
+<div>
+  <div
+    class="css-8wgyrz"
+  >
+    <div
+      class="css-1mke15x"
+    >
+      <p
+        class="css-1w16pw8"
+      >
+        Pokémon
+      </p>
+      Bulbasaur
+      <div
+        class="css-dj693t"
+      >
+        Bambang
+      </div>
+      <div
+        class="del css-1910pve"
+      >
+        click to remove
+      </div>
+    </div>
+    <img
+      alt="pokemon"
+      class="css-4l3hdz"
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    />
+  </div>
+</div>
+`;

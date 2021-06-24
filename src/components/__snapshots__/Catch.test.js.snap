@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test : Catch Pokemon 1`] = `
+<div>
+  <h3
+    class="css-12oe26j"
+  >
+    Congratulation, you got 
+    Bulbasaur
+    !
+  </h3>
+  <p
+    class="css-v0hj7n"
+  >
+    fill in the nickname to get this pokemon
+  </p>
+  <form
+    class="css-5c4cj1"
+  >
+    <input
+      autocomplete="off"
+      class="css-1uyx8bt"
+      maxlength="10"
+      name="nickname"
+      placeholder="Nickname"
+      required=""
+      type="text"
+    />
+    
+    <button
+      class="css-1q7abdy"
+      type="submit"
+    >
+      SUBMIT
+    </button>
+  </form>
+</div>
+`;
