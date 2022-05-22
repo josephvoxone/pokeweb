@@ -34,7 +34,7 @@ const Footer = () => {
     return (
         <FooterComp>
             <img src={Logoku} width='200' height='79' alt="logoku"></img>
-            <Credit>Create with Love and Passion - Project Assignment Tokopedia</Credit>
+            <Credit>Create with Love and Passion - Project Assignment Inasoft</Credit>
         </FooterComp>
     )
 }
